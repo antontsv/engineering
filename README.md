@@ -6,7 +6,7 @@ Some examples include:
 
 * No assholes
 * Listen
-* Own 
+* Own
 * Stay hungry
 
 > "[Stay Hungry. Stay Foolish](http://htmlimg3.scribdassets.com/4988llwpkwmc54c/images/324-157e00fdae/000.jpg)"
