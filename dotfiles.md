@@ -26,4 +26,4 @@ The one change I made in my [Homeshick fork](https://github.com/andsens/homeshic
 I have several repos in Homeshick control: general dot files, mac-specific files and scripts, and private files that hold secrets and keys.
 If you want to check out this setup - look at [this shell script](https://git.io/all.files) that I use to install the files.
 
-To be continued... (with encyption, keybase, upspin and other thoughts on dot files)
+To be continued... (with encyption, [keybase](https://keybase.io), [upspin](https://upspin.io) and other thoughts on dot files)
