@@ -12,7 +12,7 @@ Some of them are very simple that I used to do myself which is simply copy the f
 
 There are quite a few package-based approaches, encryption-enabled git repositories and cross-platform managers that can follow JSON or YAML configuration instructions.
 
-Some may manage files with ansible.
+Some may manage files with [ansible](http://docs.ansible.com/ansible/latest/index.html).
 
 I have landed on [Homeshick](https://github.com/andsens/homeshick):
 * Simple shell-based tool
@@ -21,9 +21,9 @@ I have landed on [Homeshick](https://github.com/andsens/homeshick):
 * Supports multiple repositories
 * Allows you to synchronize multiple computers using source control sites like github or gitlab
 
-The one change I made in my [Homeshick fork](https://github.com/andsens/homeshick) is to get rid of `home` directory and to be able to copy/link directly. Yes, there is a necessary README and LICENCE which should not be copied or `.git` itself, but it was relatively easy to plug-in, so Homeshick can ignore it.
+The one change I made in my [Homeshick fork](https://github.com/andsens/homeshick) is to get rid of `home` directory and to be able to copy/link directly. Yes, there is a necessary README and LICENCE which should not be copied or `.git` itself, but it was relatively easy to teach Homeshick to ignore it.
 
-I have several repos in Homeshick control: general dot files, mac-specific files and scripts, and private files that hold secrets and keys.
+I have several repos in Homeshick control: [general dot files](https://github.com/antontsv/.files), [mac-specific](https://github.com/antontsv/apple.bin) files and scripts, and private repo that hold secrets and keys.
 If you want to check out this setup - look at [this shell script](https://git.io/all.files) that I use to install the files.
 
 To be continued... (with encyption, [keybase](https://keybase.io), [upspin](https://upspin.io) and other thoughts on dot files)
