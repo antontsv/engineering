@@ -26,7 +26,8 @@ The one change I made in my [Homeshick fork](https://github.com/andsens/homeshic
 I have several repos in Homeshick control: [general dot files](https://github.com/antontsv/.files), [mac-specific](https://github.com/antontsv/apple.bin) files and scripts, and private repo that hold secrets and keys.
 If you want to check out this setup - look at [this shell script](https://git.io/all.files) that I use to install the files.
 
-My personal setup is now based on one command:
-`curl -L -s https://git.io/all.files | PRIVATE_REPO_CLONE_URL=$HOME/repos/private.files PRIVATE_REPO_BRANCH=local-mac bash`
+My personal setup is now based on one command (for MacOS):
+`curl -L -s https://git.io/allmac.files | bash`
+
 
 To be continued... (with encyption, [keybase](https://keybase.io), [upspin](https://upspin.io) and other thoughts on dot files)
