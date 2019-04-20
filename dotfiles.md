@@ -1,8 +1,8 @@
 # Dotfiles
 
-A few years back I have observed that my colleague was keeping Vim config files in version control, other scripts were in their own repositories as well. I thought it was very smart way to keep track over time. I also xtarted to keep track of my scripts, notes and dot files in the home in Git version control.
+A few years back I have observed that my colleague was keeping Vim config files in version control, other scripts were in their own repositories as well. I thought it was very smart way to keep track over time. I also started to keep track of my scripts, notes and dot files in the home in Git version control.
 
-People in software community has begun to share their files on Github and other platforms.
+People in software community have begun to share their files on Github and other platforms.
 
 In 2016 I have tried major approaches described at [dotfiles.github.io](http://dotfiles.github.io)
 
@@ -21,7 +21,7 @@ I have landed on [Homeshick](https://github.com/andsens/homeshick):
 * Supports multiple repositories
 * Allows you to synchronize multiple computers using source control sites like github or gitlab
 
-The one change I made in my [Homeshick fork](https://github.com/andsens/homeshick) is to get rid of `home` directory and to be able to copy/link directly. Yes, there is a necessary README and LICENCE which should not be copied or `.git` itself, but it was relatively easy to teach Homeshick to ignore it.
+The one change I made in my [Homeshick fork](https://github.com/antontsv/homeshick) is to get rid of `home` directory and to be able to copy/link directly. Yes, there is a necessary README and LICENCE which should not be copied or `.git` itself, but it was relatively easy to teach Homeshick to ignore it.
 
 I have several repos in Homeshick control: [general dot files](https://github.com/antontsv/.files), [mac-specific](https://github.com/antontsv/apple.bin) files and scripts, and private repo that hold secrets and keys.
 If you want to check out this setup - look at [this shell script](https://git.io/all.files) that I use to install the files.
