@@ -27,7 +27,21 @@ I have several repos in Homeshick control: [general dot files](https://github.co
 If you want to check out this setup - look at [this shell script](https://git.io/all.files) that I use to install the files.
 
 My personal setup is now based on one command (for MacOS):
-`curl -L -s https://git.io/allmac.files | bash`
+
+```bash
+# Basic example if you trust curl
+curl -L -s https://git.io/all.files | bash
+```
+
+If you are sceptical about cURL to shell execution, **which you should be**! I have one extra tool called [urlsh](https://github.com/antontsv/url-shell) that verifies detached GPG signatures that accompany all content from the corresponding URL. 
+
+In this more secure process, you have to get/compile urlsh first, than simply run:
+
+```bash
+# Advanced bootstrap process (with multi-level GPG verification)
+urlsh https://git.io/all.files
+# ^ it will verify https://git.io/all.files.asc before executing downloaded commands in the shell 
+```
 
 
-To be continued... (with encyption, [keybase](https://keybase.io), [upspin](https://upspin.io) and other thoughts on dot files)
+To be continued... (with encyption using [keybase](https://keybase.io/antontsv), [upspin](https://upspin.io) and other thoughts on dot files)
